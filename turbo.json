@@ -1,0 +1,9 @@
+{
+  "pipeline": {
+    "build": {
+      "commands": [
+        "npm run build --workspace=apps/*"
+      ]
+    }
+  }
+}
