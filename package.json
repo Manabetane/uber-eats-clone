@@ -11,6 +11,19 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@supabase/supabase-js": "^2.50.5",
+    "@types/next": "^8.0.7",
+    "eslint": "^9.31.0",
+    "next": "^15.3.5",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
     "turbo": "^2.5.4"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-router-dom": "^5.3.3",
+    "react": "^19.1.0",
+    "react-router-dom": "^7.6.3",
+    "zustand": "^5.0.6"
   }
 }

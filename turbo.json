@@ -1,9 +1,10 @@
 {
   "pipeline": {
     "build": {
-      "commands": [
-        "npm run build --workspace=apps/*"
-      ]
-    }
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "lint": {},
+    "test": {}
   }
 }
