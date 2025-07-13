@@ -5,6 +5,7 @@ export interface CartItem {
   title: string;
   price: number;
   quantity: number;
+  restaurant_id: string
 }
 
 interface CartState {
